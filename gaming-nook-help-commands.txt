@@ -1,0 +1,23 @@
+--------------------------------------------------------------
+=> github useful commands
+git status
+git init
+git add .
+git commit -m "Routing"
+git remote add origin https://github.com/silentgwh/gaming-nook.git
+git push origin master / git push -u origin main
+--------------------------------------------------------------
+=> run VS Code  as administrator
+Step 1: Restart VS Code as an adminstrator
+(click the windows key, search for "Visual Studio Code",
+right click, and you'll see the administrator option)
+
+Step 2: In your VS code powershell terminal run
+Set-ExecutionPolicy Unrestricted
+--------------------------------------------------------------
+=> start an angular page
+ng serve or npm run start
+--------------------------------------------------------------
+=> Create a component
+ng g c shared/main-layout --skip-tests
+--------------------------------------------------------------
